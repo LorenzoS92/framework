@@ -22,10 +22,10 @@ return [
     'user' => "We can't find a user with that e-mail address.",
 
     'user' => [
-        'login-card-title' => 'AvoRed Admin Login',
+        'login-card-title' => 'Oliofresco Admin Login',
         'email-label' => 'Email Address',
     ],
-    
+
     'admin-login-forget-password-link' => 'Forgot your Password?',
     'admin-login-button-title' => 'Login',
     'admin-reset-button-title' => 'Send Password Reset Link',
