@@ -10,6 +10,8 @@ use AvoRed\Framework\System\Controllers\Controller;
 
 class LoginController extends Controller
 {
+    protected $redirectTo = '/admin';
+
     use AuthenticatesUsers;
 
     /**
