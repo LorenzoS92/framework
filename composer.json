@@ -1,5 +1,5 @@
 {
-	"name" : "oliofresco/admin-framework",
+	"name" : "LorenzoS92/framework",
 	"description" : "Lorenzo Saraniti Avored Laravel E commerce Framework",
 	"keywords" : [
 		"framework",
@@ -39,7 +39,7 @@
         ],
 		"psr-4" : {
 			"AvoRed\\Framework\\" : "src/"
-			
+
 		}
 	},
 	"autoload-dev" : {
