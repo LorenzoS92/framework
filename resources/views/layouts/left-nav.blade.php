@@ -12,7 +12,7 @@
                             </div>
 
                             <div class="peer peer-greed">
-                                <h5 class="lh-1 mB-0 logo-text">Oliiofresco</h5>
+                                <h5 class="lh-1 mB-0 logo-text">Oliofresco</h5>
                             </div>
                         </div>
                     </a>

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>AvoRed Admin Login</title>
+    <title>Oliofresco Admin Login</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('vendor/avored-admin/css/app.css') }}" rel="stylesheet">
@@ -37,18 +37,18 @@
                     <form method="post" action="{{ route('admin.login') }}" >
                         @csrf
 
-                        <avored-form-input 
+                        <avored-form-input
                             field-name="email"
-                            label="{{ __('avored-framework::lang.user.email-label') }}" 
+                            label="{{ __('avored-framework::lang.user.email-label') }}"
                             error-text="{!! $errors->first('email') !!}"
                             v-on:change="changeModelValue"
                             autofocus="autofocus"
                                 >
                         </avored-form-input>
 
-                        <avored-form-input 
+                        <avored-form-input
                             field-name="password"
-                            label="Password" 
+                            label="Password"
                             field-type="password"
                             error-text="{!! $errors->first('password') !!}"
                             v-on:change="changeModelValue"
@@ -71,8 +71,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-6" style="border-left:1px solid;height:100vh;background-color:brown">
-            
+        <div class="col-6" style="border-left:1px solid;height:100vh;background-color:rgb(40,38,35)">
+
         </div>
     </div>
 </div>
